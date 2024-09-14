@@ -1,3 +1,3 @@
 # Samantha Eggplant Modelfile
 
-Modelfile for "Samantha Eggplant"
+Ollama modelfile for "Samantha Eggplant"
