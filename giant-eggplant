@@ -1,7 +1,7 @@
 # vision models can break things if not handled with care.
 FROM granite-code:8b
-FROM mistral
-FROM llama3.1
+FROM dolphin-mistral
+FROM dolphin-llama3
 FROM knoopx/mobile-vlm:3b-fp16
 
 # sets the temperature to 1 [higher is more creative, lower is more coherent]
