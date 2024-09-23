@@ -1,4 +1,3 @@
-FROM granite-code:8b
 FROM dolphin-llama3
 FROM dolphin-mistral
 FROM moondream
