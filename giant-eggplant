@@ -1,6 +1,7 @@
-FROM dolphin-llama3
 FROM dolphin-mistral
-FROM moondream
+FROM granite-code:8b
+FROM dolphin-llama3 
+FROM knoopx/mobile-vlm:3b-fp16
 
 # sets the temperature to 1 [higher is more creative, lower is more coherent]
 PARAMETER temperature .75
