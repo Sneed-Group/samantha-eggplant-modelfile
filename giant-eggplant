@@ -1,6 +1,5 @@
 FROM granite-code:8b
 FROM dolphin-mistral
-FROM dolphin-mixtral
 FROM moondream
 
 # sets the temperature to 1 [higher is more creative, lower is more coherent]
