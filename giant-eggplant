@@ -1,4 +1,5 @@
 FROM granite-code:8b
+FROM dolphin-mistral
 FROM dolphin-mixtral
 FROM moondream
 
