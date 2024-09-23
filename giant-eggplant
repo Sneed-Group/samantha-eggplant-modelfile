@@ -2,6 +2,7 @@
 FROM granite-code:8b
 FROM dolphin-mistral
 FROM dolphin-llama3
+FROM dolphin-mixtral
 FROM knoopx/mobile-vlm:3b-fp16
 
 # sets the temperature to 1 [higher is more creative, lower is more coherent]
