@@ -1,6 +1,6 @@
 FROM granite-code:8b
 FROM dolphin-mixtral
-FROM llava
+FROM moondream
 
 # sets the temperature to 1 [higher is more creative, lower is more coherent]
 PARAMETER temperature .75
