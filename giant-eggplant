@@ -1,14 +1,15 @@
 # vision models can break things if not handled with care.
 FROM granite-code:8b
 FROM dolphin-mistral
-FROM dolphin-llama3
+FROM dolphin-llama3:70b
+FROM CognitiveComputations/dolphin-llama3.1
 FROM dolphin-mixtral
 FROM knoopx/mobile-vlm:3b-fp16
 
 # sets the temperature to 1 [higher is more creative, lower is more coherent]
 PARAMETER temperature .75
-# sets the context window size to 4096, this controls how many tokens the LLM can use as context to generate the next token
-PARAMETER num_ctx 4096
+# sets the context window size to 16660, this controls how many tokens the LLM can use as context to generate the next token
+PARAMETER num_ctx 16660
 
 # sets a custom system message to specify the behavior of the chat assistant
 SYSTEM """
